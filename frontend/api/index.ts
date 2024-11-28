@@ -9,7 +9,7 @@ const authHeaders: Record<string, string> = {
   Authorization: `Bearer ${localStorage.getItem("access_token") || ""}`,
 };
 
-const url: string = "https://aria-api-teal.vercel.app/";
+const url: string = "https://aria-api-gr-w.vercel.app/";
 
 const API: AxiosInstance = axios.create({
   responseType: "json",
