@@ -9,7 +9,7 @@ const app = express();
 const server = http.createServer(app);
 const apiNamespace = new Server(server, {
   cors: {
-    origin: "https://aria-front-psi.vercel.app/",
+    origin: "https://aria-backup.vercel.app",
     methods: ["GET", "POST"],
   },
 });
